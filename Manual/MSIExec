@@ -104,6 +104,8 @@ The error will be in the log, returned by the batch file, exit code, or errorlev
 
 0 is success, 3010 is success but reboot needed.
 
+Error codes returned in hex i.e. 0x8000C000 can be converted to Decimal. Windows Calc (Programmer) is conveneient.
+
 
 
 msiexec | Microsoft Learn [https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec]
