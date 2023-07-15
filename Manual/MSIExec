@@ -106,8 +106,14 @@ The error will be in the log, returned by the batch file, exit code, or errorlev
 
 Error codes returned in hex i.e. 0x8000C000 can be converted to Decimal. Windows Calc (Programmer) is conveneient.
 
+[https://learn.microsoft.com/en-us/windows/win32/msi/error-codes]
+
 
 
 msiexec | Microsoft Learn [https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec]
 
 MsiExec.exe and InstMsi.exe Error Messages (for Developers) - Win32 apps | Microsoft Learn [https://learn.microsoft.com/en-us/windows/win32/msi/error-codes]
+
+
+(QChain) [https://support.microsoft.com/en-us/topic/how-to-install-multiple-windows-updates-or-hotfixes-with-only-one-reboot-6247def4-7f39-c1a0-efe5-61f82849fb7c] 
+Pre-Vista
