@@ -1,4 +1,4 @@
-Windows Update Automatic Update CLienT​
+*W*indows *U*pdate *A*utomatic *U*pdate *CL*ien*T*​
 
 wuauclt - Windows Update - Windows CMD - SS64.com [https://ss64.com/nt/wuauclt.html]
 
@@ -59,6 +59,6 @@ Once the WUAgent is idle, then executing wuauclt /reportnow will cause the call 
 
 reg query HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\ /s
 
-net stop wuauserv
-net start wuauserv
-wuauclt /detectnow /installnow​
+net stop wuauserv<br>
+net start wuauserv<br>
+wuauclt /detectnow /installnow​<br>
