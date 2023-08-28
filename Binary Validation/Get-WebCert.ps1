@@ -1,4 +1,4 @@
-Website SSL information
+# Website SSL information
 
 ​[Net.ServicePointManager]::ServerCertificateValidationCallback = { $true }
 $url = "https://10.0.240.140:9440/"
@@ -30,6 +30,7 @@ $output
 
 
 
+/#
 
 URL                              : https://www.microsoft.com:443/
 Cert Start Date                  : 10/4/2022 7:23:11 PM
@@ -52,3 +53,5 @@ Cert Type                        : System.Security.Cryptography.X509Certificates
 
 
 PS C:\Users\Public> 
+
+#/
