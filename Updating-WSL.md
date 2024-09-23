@@ -29,6 +29,6 @@ sudo apt upgrade
 ## WSL Engine update
 
 ## Updating distro from v1 engine to v2
-`wsl --set-version`
+`wsl --set-version <Distro> <Version>`
 
 ## Updating distro package from Windows (Microsoft) Store
