@@ -2,29 +2,32 @@
 
 ## Inside the distribution
 
-### Ubuntu
+#### Ubuntu
 ```
 sudo apt update
 sudo apt upgrade
 ```
 
-### Debian
+#### Debian
 `sudo apt-get update && sudo apt-get upgrade` 
 
-### openSUSE
+#### openSUSE
 `sudo zypper refresh`
 `sudo zypper update`
 
-### Fedora
+#### Fedora
 `sudo dnf upgrade`
 
-### Arch
+#### Arch
 
-### Alpine
+#### Alpine
 
-### deepin
+#### deepin
 
-### AOSC
+#### AOSC
+
+#### Kali Linux
+``
 
 ## WSL Engine update
 
@@ -32,3 +35,15 @@ sudo apt upgrade
 `wsl --set-version <Distro> <Version>`
 
 ## Updating distro package from Windows (Microsoft) Store
+
+
+-----
+
+```
+winget upgrade Microsoft.WSL
+winget upgrade Debian.Debian
+winget upgrade Canonical.Ubuntu.1804
+winget upgrade Canonical.Ubuntu.2004
+winget upgrade Canonical.Ubuntu.2204
+winget upgrade kalilinux.kalilinux
+```
