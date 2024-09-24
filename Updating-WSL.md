@@ -23,6 +23,10 @@ sudo apt upgrade
 #### Alpine
 
 #### deepin
+'''
+sudo apt update
+sudo apt dist-upgrade
+'''
 
 #### AOSC
 
