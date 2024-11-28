@@ -1,0 +1,1 @@
+Get-InstalledModule |%{if((get-module -listavailable -name $_.name).version -lt (find-module $_.name).version){update-module -name $_.name -force;Get-InstalledModule -name $_.name -allversions| where {$_.version -lt (get-installedmodule -name $_.name).version} | Uninstall-Module -force}}
