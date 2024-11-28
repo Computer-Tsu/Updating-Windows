@@ -1,5 +1,7 @@
 # Update Windows Subsytem for Linux
 
+`wsl --update`
+
 ## Inside the distribution
 
 #### Ubuntu
