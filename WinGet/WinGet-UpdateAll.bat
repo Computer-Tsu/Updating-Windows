@@ -1,2 +1,3 @@
 REM Upgrade/Update all apps managed by WinGet
-WinGet Update --All
+REM WinGet Update --All
+winget upgrade --all --accept-source-agreements --accept-package-agreements
